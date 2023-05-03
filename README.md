@@ -166,8 +166,10 @@ You can see that **ed667b29-0632-485b-9db3-e79a4e82907b** is added in every LOGG
 
 USING POSTMAN WITH HEADER:
 --------------------------
+```
 curl --location --request GET 'http://localhost:8050/thing' \
 --header 'RacCorrelationId: 666'
+```
 
 
 Response:
